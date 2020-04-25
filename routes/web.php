@@ -52,3 +52,6 @@ Route::group(['namespace' => 'User' ,'middleware' => ['user', 'verified']], func
     Route::get('/user', 'UserController@index');
 
 });
+
+
+//change redirectTo in auth controllers after modifying the /home
